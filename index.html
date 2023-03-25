@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clinica Medica</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <ul>
+        <li class="navLi"><a href="#header"> Home</a></li>
+
+        <li class="navLi"><a href="#main">Office Hours</a></li>
+        <li class="navLi"><a href="#footer">Contact</a></li>
+      </ul>
+    </nav>
+    <header class="header" id="header">
+      <img class="imgHeader" src="./img/img1.jpg" alt="" />
+      <div class="box-description">
+        <p class="description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quia
+          rerum tempore distinctio nulla nihil fugit ut voluptatum quos modi
+          veniam, facilis dolore expedita delectus commodi, earum asperiores
+          architecto officiis.
+        </p>
+      </div>
+    </header>
+    <div class="divider"></div>
+    <main class="atendimento" id="main">
+      <img class="imgHeader" src="./img/img2.jpg" alt="" />
+      <div class="horarios">
+        <h1>Horario de Atendimento</h1>
+        <p class="text-atendimento">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni tenetur
+          perspiciatis necessitatibus commodi deserunt repellendus consequuntur
+          sunt reiciendis natus fuga!
+        </p>
+        <table>
+          <tr class="table-header">
+            <td>Serviços</td>
+            <td>Segunda a Sexta</td>
+            <td>Sábados</td>
+            <td>Feriados</td>
+          </tr>
+          <tr>
+            <td>Clínica geral</td>
+            <td>08h - 19h</td>
+            <td>08h - 14h</td>
+            <td>08h - 14h</td>
+          </tr>
+          <tr>
+            <td>Psicologia</td>
+            <td>08h - 19h</td>
+            <td>08h - 14h</td>
+            <td>08h - 14h</td>
+          </tr>
+          <tr>
+            <td>Pediatria</td>
+            <td>08h - 19h</td>
+            <td>08h - 18h</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>Oftalmologia</td>
+            <td>08h - 19h</td>
+            <td>08h - 18h</td>
+            <td>-</td>
+          </tr>
+        </table>
+      </div>
+    </main>
+    <div class="divider"></div>
+    <footer id="footer">
+      <h2>Contato</h2>
+      <div class="colunas">
+        <div class="colEsquerda">
+          <fieldset>
+            <legend>Numero de contato</legend>
+            <p>(53)99999-9999</p>
+          </fieldset>
+          <fieldset>
+            <legend>Localidade</legend>
+            <p>R. do Eng., 153 - Planalto, Uberlândia - MG, 38413-165</p>
+          </fieldset>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15095.360438931066!2d-48.30906280212038!3d-18.938470089340115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94a445567b00cd75%3A0x3c3a01661e12ee79!2sCl%C3%ADnica%20em%20Uberl%C3%A2ndia%20CAMP%20-%20Cl%C3%ADnica%20de%20Atendimento%20M%C3%A9dico%20Popular%20em%20Uberl%C3%A2ndia!5e0!3m2!1spt-BR!2sbr!4v1679770539511!5m2!1spt-BR!2sbr"
+            width="520"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            class="iframe"
+          ></iframe>
+        </div>
+        <div class="colDireita">
+          <form method="get">
+            <fieldset>
+              <legend>Nome</legend>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                placeholder="Digite seu nome"
+              />
+            </fieldset>
+            <fieldset>
+              <legend>Email</legend>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                placeholder="Digite seu email"
+              />
+            </fieldset>
+            <fieldset>
+              <legend>Assunto</legend>
+              <input
+                type="text"
+                id="assunto"
+                name="assunti"
+                required
+                placeholder="Sobre o assunto"
+              />
+            </fieldset>
+            <fieldset>
+              <legend>Menssagem</legend>
+              <textarea
+                name="menssagem"
+                id="menssagem"
+                cols="45"
+                rows="5"
+              ></textarea>
+            </fieldset>
+            <div class="buttons">
+              <button type="submit" class="buttonEnviar">Enviar</button>
+              <button type="reset" class="buttonReset">Limpar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
